@@ -1,10 +1,11 @@
 {
   "name": "unko",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "test",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "patch-package"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/sota-onozuka/unko/issues"
   },
-  "homepage": "https://github.com/sota-onozuka/unko#readme"
+  "homepage": "https://github.com/sota-onozuka/unko#readme",
+  "devDependencies": {
+    "patch-package": "^6.4.7"
+  }
 }
